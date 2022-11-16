@@ -13,13 +13,6 @@
 
 #define TVP_IN_PLUGIN_STUB
 
-#ifdef _M_IX86
-#pragma comment ( lib,"webp.lib")
-#endif
-#ifdef _M_X64
-#pragma comment ( lib,"webpx86.lib")
-#endif // _M_X64
-
 tjs_int TVPPluginGlobalRefCount = 0;
 
 //---------------------------------------------------------------------------
